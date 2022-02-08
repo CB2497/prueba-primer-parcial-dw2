@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Oswald:wght@700&display=swap');
+
+
+:root{
+	--color-negro:#000;
+	--color-texto:#212529;
+	--fondo-gris: #f3f3f3;
+	--fondo-azul-aqua: #41c1fe;
+	--fondo-footer: #383737;
+	--titulos: #3c3838;
+	--contenido: #888585;
+}
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: var(--color-texto);
+}
+header{
+    background-color: transparent;
+	position: absolute;
+	width: 100%;
+	border-bottom: 1px solid rgba(255,255,255,0.30);
+}
+
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: var(--contenido) !important;
+}
+.header-area.sticky .navbar-light .navbar-nav .nav-link{
+	color: var(--color-negro);
+}
+
+
+#hero{
+	background-image: url("../img/slider1_slide2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	text-align: center;
+	color: #fff;
+	height: 100vh;
+	
+}
+
+
+#hero h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 90px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	margin-top: 160px;
+}
+
+#hero h3{
+	font-size: 16px;
+	font-weight: normal;
+	color: var(--color-texto);
+}
+
+.btn-men{
+	background-color: var(--fondo-azul-aqua);
+	padding: 10px 50px !important;
+	border-radius: 100;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 60px;
+	margin-left: 500px;
+}
+
+.btn-women{
+	background-color: #fff;
+	padding: 10px 50px !important;
+	border-radius: 100;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: var(--fondo-azul-aqua);
+	font-family: 'Oswald', sans-serif;
+	margin-top: 60px;
+	margin-right: 500px;
+}
+
+.btn-rungran{
+	background-color: var(--fondo-azul-aqua);
+	padding: 10px 30px !important;
+	border-radius: 100;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #fff !important;
+	font-family: 'Oswald', sans-serif;
+	margin-left: 30px;
+	
+}
+
+
+#men-running{
+	background-image: url("../img/men-running.jpg");
+	height: 370px;
+	width: 330;
+	background-repeat: no-repeat;
+	background-position: top center;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+}
+
+
+#women-running{
+	background-image: url("../img/women-runnig.jpg");
+	height: 370px;
+	width: 330;
+	background-repeat: no-repeat;
+	background-position: top center;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+}
+
+#sale{
+	background-color:var(--fondo-azul-aqua);
+	height: 330px;
+	width: 300;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#men-running h2, #women-running h2, #sale h2{
+	margin-top: 120px;
+}
+
+
+
+#cta{
+	background-image: url("../img/bg_action.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	
+	padding: 10% 0;
+}
+
+.btn-view{
+	background-color: var(--fondo-azul-aqua);
+	padding: 10px 20px !important;
+	border-radius: 100;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	
+	
+}
+
+.btn-add{
+	background-color: #fff;
+	padding: 10px 20px !important;
+	border-radius: 100;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: var(--fondo-azul-aqua);
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+#cta h2{
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#cta p{
+	color: #5F5F5F;
+}
+
+#cta h3{
+	font-family: 'Oswald', sans-serif;
+	color: var(--fondo-azul-aqua);
+	text-transform: uppercase;
+	text-align: left;
+	
+}
+
+
+
+.btn-buy{
+	background-color: var(--fondo-azul-aqua);
+	padding: 10px 20px !important;
+	border-radius: 100;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+
+#new-products{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	background-color: --contenido;
+}
+
+#new-products h4{
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#new-products h3{
+	font-size: 25px;
+	color: #4F4F4F;
+}
+
+#new-products{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#new-products h2{
+	font-size: 60px;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+form{
+	background-color: var(--fondo-azul-aqua);
+	color: #fff;
+}
+
+
+
+footer{
+	background-color: var(--fondo-footer);
+	color: #fff;
+	text-align: center;
+}
+
+footer h4{
+	font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
